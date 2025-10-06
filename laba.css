@@ -1,0 +1,53 @@
+.btn {
+    display: flex;
+    justify-content: center; /* центр по горизонтали */
+    align-items: center;     /* центр по вертикали */
+    padding: 14px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    cursor: pointer;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+  }
+  
+  
+  .btn:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    border-color: rgba(255,255,255,0.6);
+  }
+  
+  /* Цвета с лёгким неоновым свечением */
+  .plus {
+    background: linear-gradient(135deg, #32d74b, #1db954);
+    box-shadow: 0 0 10px rgba(50, 215, 75, 0.6);
+  }
+  
+  .plus:hover {
+    box-shadow: 0 0 20px rgba(50, 215, 75, 0.9);
+  }
+  
+  .minus {
+    background: linear-gradient(135deg, #ff4d4f, #dc3545);
+    box-shadow: 0 0 10px rgba(255, 77, 79, 0.6);
+  }
+  
+  .minus:hover {
+    box-shadow: 0 0 20px rgba(255, 77, 79, 0.9);
+  }
+  
+  .reset {
+    background: linear-gradient(135deg, #6c757d, #495057);
+    box-shadow: 0 0 10px rgba(108, 117, 125, 0.5);
+  }
+  
+  .reset:hover {
+    box-shadow: 0 0 20px rgba(108, 117, 125, 0.8);
+  }
+  
